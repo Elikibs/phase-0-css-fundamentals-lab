@@ -3,3 +3,40 @@ body {
   height: 100%;
   margin: 0;
 }
+header{
+  text-align: center;
+}
+.navbarlinks{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: azure;
+}
+#featured-property{
+  text-align: center;
+}
+figure{
+  font-size: 15px;
+  /* width: 900px; */
+}
+.featured-propertyclass{
+  text-align: center;
+  padding: 10px;
+  margin: 0 300px;
+}
+
+/* Make the #details section horizontal */
+#details {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #be3232;
+  text-align: center;
+}
+
+/* Style each div within the #details section */
+#details > div {
+  flex: 1; /* Each div takes an equal portion of the available width */
+  padding: 20px; /* Add some spacing around each div */
+  box-sizing: border-box; /* Include padding in the width calculation */
+  width: 25%;
+  
+}
